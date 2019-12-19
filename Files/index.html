@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css">
+
+    <title>Time Interval</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2 id="head">Time Interval Calculator</h2>
+        <div class="container-content">
+                <div class="left">
+                        <form id="form">
+                            <div>
+                                <label>Start Time</label><br>
+                                <input type="text" maxlength="10" required placeholder="e.g 03:15am" name="startTime" id="startTime">
+                            </div>
+                            <div>
+                                <label for="">End Time Time</label><br>
+                                <input id="endTime" maxlength="10" type="text" required placeholder="e.g 03:15am" name="endTime">
+                            </div>
+                            <div>
+                                <label>Interval</label><br>
+                                <select name="interval" id="interval">
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="30">30</option>
+                                </select>
+                                <input id="submitBtn" type="submit" value="Compute Interval">
+                            </div>
+                        </form>
+                        <div class="clicked">
+                            some
+                        </div>
+                    </div>
+            
+                    <div class="right">
+                        <h3>Here are your intervals:</h3>
+                        <div class="display">
+                            
+                        </div>
+                    </div>
+            
+        </div>
+    </div>
+    <footer>
+        <br><hr>
+        <p>Task 1 - Mentor: Eng. Martin F</p><hr>
+        <p>&copy;16th Dec, 2019</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
